@@ -1,14 +1,18 @@
-Acesta este un proiect Java pentru o aplicație interactivă de Gender Reveal, construită folosind Swing pentru interfața grafică. 
-Aplicația oferă o experiență vizuală captivantă, printr-un joc simplu care dezvăluie genul bebelușului după finalizarea unei animații de progres.
+# Gender Reveal – Interactive Java Application
 
-Structura proiectului:
--> Main.java – Inițializează aplicația și pornește ecranul de start.
--> Start.java – Creează fereastra inițială cu un buton "START!" și o imagine de fundal.
--> Gender.java – Ecranul principal, unde utilizatorul apasă butoane pentru a descoperi simboluri de băiat/fată. După ce toate sunt apăsate, se inițiază o animație de încărcare.
--> Finish.java – Ultimul ecran, care afișează imaginea finală de Gender Reveal.
+This is a Java project for an interactive Gender Reveal application, built using Swing for the graphical user interface.  
+The app offers a visually engaging experience through a simple game that reveals the baby’s gender after a progress animation.
 
-Funcționalități implementate:
--> Interfață grafică modernă bazată pe Swing
--> Animație interactivă cu butoane care schimbă iconițe între băiat și fată
--> Bară de progres care simulează suspansul dezvăluirii genului
--> Ecran final personalizat cu o imagine de Gender Reveal
+## Project Structure
+
+- `Main.java` – Initializes the application and launches the start screen.
+- `Start.java` – Creates the initial window with a "START!" button and a background image.
+- `Gender.java` – The main screen, where the user clicks buttons to uncover boy/girl icons. Once all are clicked, a loading animation begins.
+- `Finish.java` – The final screen displaying the Gender Reveal image.
+
+## Features Implemented
+
+- Modern GUI built with Swing  
+- Interactive animation with buttons toggling between boy and girl icons  
+- Progress bar to simulate suspense before revealing the gender  
+- Custom final screen with a Gender Reveal image  
